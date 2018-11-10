@@ -1,7 +1,6 @@
 # Electroneum GUI
 
-Copyright (c) 2014-2017, The Monero Project
-Special thanks to tperalta82 for his initial port which can be found [here](https://github.com/tperalta82/electroneum-core)
+Copyright (c) Monero
 
 ## About this Project
 
@@ -13,12 +12,12 @@ As with many development projects, the repository on Github is considered to be 
 
 This GUI development can be supported directly through donations.
 
-Electroneum Address is: `etnk15iRvCdXxgTghL2mpH4WTEUjyCCd2GSgVMLBQZPYGsTNudRw9pF5DX1d8LeMWkiUySg8f8yi6AE8PRc1uLNB6gYqmRY6Ts`
-Monero Address is: `48VoiWRZ4ia7DUuC46xaKXdZpkgbshJBvGS7DMZ7HXDdUrJgKX6v8WeCkA1uePpwZihxAFWWzDQ1UUvqRsVqNyn5PPpL7SQ`
+
 
 ## License
 
 See [LICENSE](LICENSE).
+
 
 ## Compiling Electroneum GUI Core from Source
 
@@ -61,7 +60,8 @@ See [LICENSE](LICENSE).
   - For Ubuntu and Mint
   
   `./get_libwallet_api.sh`
-  `./build.sh`
+	`./build.sh`
+
 
 The executable can be found in the build/release/bin folder.
 
@@ -96,11 +96,11 @@ The executable can be found in the build/release/bin folder.
 
 6. Grab an up-to-date copy of the electroneum-core repository
 
-  `git clone https://github.com/OfficiallyUndead/electroneum-gui.git`
+  `git clone https://github.com/tperalta82/electroneum-core.git`
 
 7. Go into the repository
 
-  `cd electroneum-gui`
+  `cd electroneum-core`
 
 8. Start the build
 
@@ -120,6 +120,7 @@ with
 `isEmpty($$list($$system("/usr/bin/xcrun -find xcodebuild 2>/dev/null")))`
 
 More info: http://stackoverflow.com/a/35098040/1683164
+
 
 ### On Windows:
 
@@ -166,7 +167,7 @@ More info: http://stackoverflow.com/a/35098040/1683164
 7. Clone repository
     ```
     cd
-    git clone https://github.com/OfficiallyUndead/electroneum-gui.git
+    git clone https://github.com/tperalta82/electroneum-core.git
     ```
 
 8. Build the GUI
@@ -183,8 +184,3 @@ More info: http://stackoverflow.com/a/35098040/1683164
     ```
 
 The executable can be found in the ```.\release\bin``` directory.
-
-### Post Build (Important)
-
-If when attempting to run the application you do not see a window, cd into the build directory and run `make deploy`.
-This will copy the libraries and runtime files that are required for the app to work correctly.

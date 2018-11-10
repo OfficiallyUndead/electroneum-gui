@@ -33,7 +33,7 @@ import QtQuick 2.2
 import QtQuick.Controls 1.4
 import QtQuick.Layouts 1.1
 import QtGraphicalEffects 1.0
-import moneroComponents.Wallet 1.0
+import ElectroneumComponents.Wallet 1.0
 
 import "./pages"
 

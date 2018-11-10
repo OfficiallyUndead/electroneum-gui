@@ -29,7 +29,7 @@
 import QtQuick 2.0
 import QtMultimedia 5.4
 import QtQuick.Dialogs 1.2
-import moneroComponents.QRCodeScanner 1.0
+import ElectroneumComponents.QRCodeScanner 1.0
 
 Rectangle {
     id : root

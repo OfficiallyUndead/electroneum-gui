@@ -29,9 +29,9 @@
 import QtQuick 2.0
 import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.2
-import moneroComponents.PendingTransaction 1.0
+import ElectroneumComponents.PendingTransaction 1.0
 import "../components"
-import moneroComponents.Wallet 1.0
+import ElectroneumComponents.Wallet 1.0
 
 
 Rectangle {
