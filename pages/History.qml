@@ -28,11 +28,11 @@
 
 import QtQuick 2.0
 
-import moneroComponents.Wallet 1.0
-import moneroComponents.WalletManager 1.0
-import moneroComponents.TransactionHistory 1.0
-import moneroComponents.TransactionInfo 1.0
-import moneroComponents.TransactionHistoryModel 1.0
+import ElectroneumComponents.Wallet 1.0
+import ElectroneumComponents.WalletManager 1.0
+import ElectroneumComponents.TransactionHistory 1.0
+import ElectroneumComponents.TransactionInfo 1.0
+import ElectroneumComponents.TransactionHistoryModel 1.0
 
 import "../components"
 

@@ -33,7 +33,7 @@ import QtQuick.Layouts 1.1
 import QtQuick.Controls.Styles 1.4
 import QtQuick.Window 2.0
 
-import "../components" as MoneroComponents
+import "../components" as ElectroneumComponents
 
 Window {
     id: root
@@ -145,7 +145,7 @@ Window {
             spacing: 60
             Layout.alignment: Qt.AlignHCenter
             
-            MoneroComponents.StandardButton {
+            ElectroneumComponents.StandardButton {
                 id: cancelButton
                 width: 120
                 fontSize: 14
@@ -160,7 +160,7 @@ Window {
                     root.rejected()
                 }
             }
-            MoneroComponents.StandardButton {
+            ElectroneumComponents.StandardButton {
                 id: okButton
                 width: 120
                 fontSize: 14

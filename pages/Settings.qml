@@ -35,7 +35,7 @@ import "../version.js" as Version
 
 
 import "../components"
-import moneroComponents.Clipboard 1.0
+import ElectroneumComponents.Clipboard 1.0
 
 Rectangle {
     property var daemonAddress

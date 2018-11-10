@@ -400,7 +400,7 @@ OTHER_FILES += \
 
 DISTFILES += \
     notes.txt \
-    monero/src/wallet/CMakeLists.txt \
+    electroneum/src/wallet/CMakeLists.txt \
     components/MobileHeader.qml
 
 

@@ -8,7 +8,7 @@ ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 source $ROOT_DIR/utils.sh
 
 INSTALL_DIR=$ROOT_DIR/wallet
-ELECTRONEUM_DIR=$ROOT_DIR/electroneum
+ELECTRONEUM_DIR=/Users/deancole/Projects/electroneum
 BUILD_LIBWALLET=false
 
 # init and update electroneum submodule

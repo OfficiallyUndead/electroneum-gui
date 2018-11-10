@@ -33,7 +33,7 @@ import QtQuick.Layouts 1.1
 import QtQuick.Controls.Styles 1.4
 import QtQuick.Window 2.0
 
-import "../components" as MoneroComponents
+import "../components" as ElectroneumComponents
 
 Window {
     id: root
@@ -106,7 +106,7 @@ Window {
             spacing: 60
             Layout.alignment: Qt.AlignHCenter
 
-            MoneroComponents.StandardButton {
+            ElectroneumComponents.StandardButton {
                 id: okButton
                 width: 120
                 fontSize: 14
@@ -122,7 +122,7 @@ Window {
                 }
             }
 
-            MoneroComponents.LineEdit {
+            ElectroneumComponents.LineEdit {
                 id: sendCommandText
                 width: 300
                 placeholderText: qsTr("command + enter (e.g help)") + translationManager.emptyString
@@ -134,7 +134,7 @@ Window {
             }
 
             // Status button
-//            MoneroComponents.StandardButton {
+//            ElectroneumComponents.StandardButton {
 //                id: sendCommandButton
 //                enabled: sendCommandText.text.length > 0
 //                fontSize: 14
